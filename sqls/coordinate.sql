@@ -1,5 +1,5 @@
-﻿create table tmp_yl_city_mgr_evt_info as 
-select 
+﻿insert overwrite table yl_city_mgr_evt_info
+select
 
 rec_id,
 act_property_id,
