@@ -8,34 +8,35 @@
     <artifactId>test</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-   <dependencies>
-    <dependency>
-        <groupId>com.yunli.toolkit</groupId>
-        <artifactId>mid-platform-gissdk</artifactId>
-        <version>4.4.0-SNAPSHOT</version>
-    </dependency>
+    <dependencies>
 
-    <dependency>
-        <groupId>org.apache.poi</groupId>
-        <artifactId>poi-ooxml</artifactId>
-        <version>3.17</version>
-    </dependency>
+        <dependency>
+            <groupId>com.yunli.toolkit</groupId>
+            <artifactId>mid-platform-gissdk</artifactId>
+            <version>4.4.0-SNAPSHOT</version>
+        </dependency>
 
-    <!--hive-->
-    <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-exec -->
-    <dependency>
-        <groupId>org.apache.hive</groupId>
-        <artifactId>hive-exec</artifactId>
-        <version>2.3.6</version>
-    </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.17</version>
+        </dependency>
 
-    <!--hadoop-->
-    <dependency>
-        <groupId>org.apache.hadoop</groupId>
-        <artifactId>hadoop-common</artifactId>
-        <version>2.7.7</version>
-    </dependency>
+        <!--hive-->
+        <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-exec -->
+        <dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-exec</artifactId>
+            <version>2.3.6</version>
+        </dependency>
 
-</dependencies>
+        <!--hadoop-->
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-common</artifactId>
+            <version>2.7.7</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
